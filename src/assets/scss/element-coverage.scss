@@ -1,0 +1,65 @@
+/***布局***/
+.el-header {
+  padding: 0 20px;
+}
+.el-main {
+  height: calc(100vh - 60px);
+  background-color: #f8f8f8;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/***menu***/
+.el-menu {
+  width: 300px;
+  border-right: none;
+}
+.el-menu--collapse {
+  width: 64px;
+}
+.el-submenu .el-menu-item {
+  padding-right: 20px;
+  span {
+    display: inline-block;
+    max-width: calc(100% - 30px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/***scrollbar***/
+.layout {
+  .el-scrollbar__wrap {
+    overflow-x: auto;
+  }
+}
+
+/***dropdown***/
+.el-dropdown {
+  outline: none;
+}
+
+/***table***/
+.el-table th {
+  background-color: #f5f7fa;
+}
+
+/***tabs***/
+.el-tabs__content {
+  border: 1px solid #e4e7ed;
+  padding: 20px 0;
+  border-top: none;
+}
+.el-tabs__header {
+  margin-bottom: 0;
+}
+
+/***dialog***/
+.el-dialog__body {
+  padding: 30px 50px;
+}
+
+/***select***/
+.el-select {
+  width: 100%;
+}
